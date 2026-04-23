@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --background: #f7f8fb;
+  --foreground: #172033;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(45, 212, 191, 0.14), transparent 30rem),
+    linear-gradient(180deg, #ffffff 0%, var(--background) 45%);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
